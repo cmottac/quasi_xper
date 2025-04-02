@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 
+
 def generate_trend_dataset(start_date_pre, end_date_pre, start_date_post, 
                            end_date_post, treatment_units, control_units,
                            metric_slope, treatment_shift, random_noise_scale, shifts):
